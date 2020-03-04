@@ -16,7 +16,7 @@ Follow installation steps in the text-based installer
 1. apt install uuid-runtime build-essential sg3-utils apache2 psmisc linux-headers-`uname -r
 2. Add "non-free" to /etc/apt/sources.list
 3. apt update
-4. apt install fimrware-qlogic
+4. apt install firmware-qlogic
 5. a2enmod cgi
 
 #### Actual setup
@@ -65,3 +65,4 @@ Follow installation steps in the text-based installer
 3. The proper boot order is QuadstorVTL, clicking "load" on necessary tape cartridges, then booting FreeNAS
     a. This just ensures iSCSI drives are available before FreeNAS boots
 3. Thanks to user thewizard231 on the FreeNAS forums for giving steps for making FreeNAS act as an iSCSI initiator
+   https://www.ixsystems.com/community/threads/freenas-as-an-iscsi-initiator.22098/#post-462100
